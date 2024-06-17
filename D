@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giới thiệu bản thân</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f4f4f9;
+      }
+      h1, h2, h3 {
+        color: #333;
+      }
+      img {
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      ul li {
+        background: #fff;
+        margin: 5px 0;
+        padding: 10px;
+        border: 1px solid #ddd;
+      }
+      a {
+        color: #3498db;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      footer {
+        margin-top: 20px;
+        text-align: center;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      form input {
+        margin-bottom: 10px;
+        padding: 8px;
+        width: 200px;
+      }
+      form button {
+        padding: 8px 16px;
+        background-color: #3498db;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      form button:hover {
+        background-color: #2980b9;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Giới thiệu bản thân</h1>
+    <img  src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/447681210_1563747384485230_2044034361005371185_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHfolEdIWOqAXIRsjJyBhCsaZIIGQRS8o1pkggZBFLyjVizQI2doK9Gb0RcP6RGRwtZYCrmZoZmJt36Dxgc3tjW&_nc_ohc=g9EtLF2VcHcQ7kNvgGu9IUU&_nc_ht=scontent.fsgn2-9.fna&oh=00_AYC6B4_XCY5Jup4gH6WMMwkdKkQwGKOqNZDzoARsDOmOpw&oe=66758A82" alt="Ảnh đại diện của tôi" width="200" />
+    <h2>Chào các bạn, mình là Nguyễn Việt Đức</h2>
+    <p>Mình 19 tuổi, quê ở Cần Thơ. Hiện tại mình đang là sinh viên năm 1 ngành Công nghệ Thông tin. Mình rất thích khám phá và học hỏi những điều mới trong lĩnh vực lập trình và công nghệ.</p>
+    <h3>Sở thích, kỹ năng và mục tiêu cá nhân</h3>
+    <ul>
+      <li>Sở thích: Ăn, Ngủ, Code, Chơi Liên Minh Huyền Thoại</li>
+      <li>Kỹ năng: Dev c++, Git</li>
+      <li>Mục tiêu: Trở thành một lập trình viên giỏi và đóng góp cho các dự án mã nguồn mở</li>
+    </ul>
+    <h3>Các bạn có gì muốn hỏi mình không?</h3>
+    <form>
+      <input type="text" placeholder="Điền câu hỏi" />
+      <button>Gửi câu hỏi</button>
+    </form>
+    <footer>
+      <h3>Thông tin liên lạc của mình</h3>
+      <ul>
+        <li>Email: <a href="mailto:kiyato160@gmail.com">kiyato160@gmail.com</a></li>
+        <li>Facebook: <a href="https://www.facebook.com/kiyato.nguyen.2005" target="_blank">kiyato.nguyen.2005</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
