@@ -1,43 +1,45 @@
 <!DOCTYPE html>
 <html lang="vi">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Giới thiệu bản thân</title>  
-    <link rel = "stylesheet" href = "index.css" >
-  </head>
-  <body>
-    <header>
-      <h1>Giới thiệu bản thân</h1>
-    </header>
-    <main>
-      <selcetion class = "profile" >
-        <img  src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/447681210_1563747384485230_2044034361005371185_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHfolEdIWOqAXIRsjJyBhCsaZIIGQRS8o1pkggZBFLyjVizQI2doK9Gb0RcP6RGRwtZYCrmZoZmJt36Dxgc3tjW&_nc_ohc=g9EtLF2VcHcQ7kNvgGu9IUU&_nc_ht=scontent.fsgn2-9.fna&oh=00_AYC6B4_XCY5Jup4gH6WMMwkdKkQwGKOqNZDzoARsDOmOpw&oe=66758A82" alt="Ảnh đại diện của tôi" width="200" />
-        <h2>Chào các bạn, mình là Nguyễn Việt Đức</h2>
-        <p>Mình 19 tuổi, quê ở Cần Thơ. Hiện tại mình đang là sinh viên năm 1 ngành Công nghệ Thông tin. Mình rất thích khám phá và học hỏi những điều mới trong lĩnh vực lập trình và công nghệ.</p>
-      </selcetion>
-      <selcetion class = "details" >
-        <h3>Sở thích, kỹ năng và mục tiêu cá nhân</h3>
-        <ul>
-          <li>Sở thích: Ăn, Ngủ, Code, Chơi Liên Minh Huyền Thoại</li>
-          <li>Kỹ năng: Dev c++, Git</li>
-          <li>Mục tiêu: Trở thành một lập trình viên giỏi và đóng góp cho các dự án mã nguồn mở</li>
-        </ul>
-      </selcetion>
-      <selecetion class = "contact-from">
-        <h3>Các bạn có gì muốn hỏi mình không?</h3>
-        <form>
-          <input type="text" placeholder="Điền câu hỏi" />
-          <button>Gửi câu hỏi</button>
-        </form>
-      </selecetion>
-    </main>
-    <footer>
-      <h3>Thông tin liên lạc của mình</h3>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Giới thiệu bản thân</title>  
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <h1>Giới thiệu bản thân</h1>
+  </header>
+  <main>
+    <section class="profile">
+      <img id="avatar" src="./avatar.jpg.jpg" alt="Ảnh đại diện của tôi" width="200" />
+      <h2>Chào các bạn, mình là Nguyễn Việt Đức</h2>
+      <p>Mình 19 tuổi, quê ở Cần Thơ. Hiện tại mình đang là sinh viên năm 1 ngành Công nghệ Thông tin. Mình rất thích khám phá và học hỏi những điều mới trong lĩnh vực lập trình và công nghệ.</p>
+    </section>
+    <section class="details">
+      <h3>Sở thích, kỹ năng và mục tiêu cá nhân</h3>
       <ul>
-        <li>Email: <a href="mailto:kiyato160@gmail.com">kiyato160@gmail.com</a></li>
-        <li>Facebook: <a href="https://www.facebook.com/kiyato.nguyen.2005" target="_blank">kiyato.nguyen.2005</a></li>
+        <li>Sở thích: Ăn, Ngủ, Code, Chơi Liên Minh Huyền Thoại</li>
+        <li>Kỹ năng: Dev c++, Git</li>
+        <li>Mục tiêu: Trở thành một lập trình viên giỏi và đóng góp cho các dự án mã nguồn mở</li>
       </ul>
-    </footer>
-  </body>
+    </section>
+    <section class="contact-form">
+      <h3>Các bạn có gì muốn hỏi mình không?</h3>
+      <form id="contactForm">
+        <input type="email" id="email" placeholder="Nhập email" required />
+        <input type="tel" id="phone" placeholder="Nhập số điện thoại" required />
+        <button type="submit">Gửi thông tin</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <h3>Thông tin liên lạc của mình</h3>
+    <ul>
+      <li>Email: <a href="mailto:kiyato160@gmail.com">kiyato160@gmail.com</a></li>
+      <li>Facebook: <a href="https://www.facebook.com/kiyato.nguyen.2005" target="_blank">kiyato.nguyen.2005</a></li>
+    </ul>
+  </footer>
+  <script src="index.js"></script>
+</body>
 </html>
